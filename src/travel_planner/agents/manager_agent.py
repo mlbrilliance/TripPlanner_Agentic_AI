@@ -16,7 +16,7 @@ class TripPlannerManager:
                 model="llama2",
                 temperature=0.7,
                 base_url="http://127.0.0.1:11434",
-                timeout=120
+                timeout=1200
             )
             
             # Test the connection
