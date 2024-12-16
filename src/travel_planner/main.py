@@ -4,6 +4,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 from .models.trip import TripRequest, Location
 from .agents.manager_agent import TripPlannerManager
+import warnings
 
 def main() -> Any:
     """
@@ -12,6 +13,8 @@ def main() -> Any:
     Returns:
         Any: The generated trip itinerary
     """
+    warnings.filterwarnings("ignore", message=".*Returning anything other than.*")
+    
     load_dotenv()
     
     # Create a sample trip request with correct Location initialization
