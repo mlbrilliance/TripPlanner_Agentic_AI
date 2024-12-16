@@ -1,10 +1,10 @@
-# TripPlanner_Agentic_AI
+# TripPlanner - Agentic AI - Crew AI
 
 A sophisticated trip planning system built using the Crew AI Agentic Framework. This project leverages AI agents to create personalized travel itineraries, handle accommodation bookings, and suggest activities based on user preferences.
 
 ## Features
-Developer: Nick Sudh
-LinkedIn: https://www.linkedin.com/in/nick-sudh/
+- Developer: Nick Sudh
+-LinkedIn: https://www.linkedin.com/in/nick-sudh/
 
 ## Features
 
